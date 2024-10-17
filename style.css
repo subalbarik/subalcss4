@@ -1,0 +1,41 @@
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .parallax-section {
+            height: 100vh; 
+            background-attachment:fixed; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        
+        .parallax-bg-1 {
+            background-image: url('hero.jpg'); 
+        }
+
+        
+        .parallax-bg-2 {
+            background-image: url('hero2.jpg');
+        }
+
+        .content-section {
+            height: 50vh; 
+            background-color: #5bacc4;
+            text-align: center;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content-section h2 {
+            font-size: 2rem;
+            color: #333;
+        }
+    
